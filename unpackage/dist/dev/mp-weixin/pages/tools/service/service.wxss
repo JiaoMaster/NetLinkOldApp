@@ -1,0 +1,13 @@
+
+.cell{
+	font-size: 30px;
+}
+.pop{
+	width:310px;
+	height: 150px;
+}
+.text_left{
+	font-size: 30px;
+	float: left;
+}
+

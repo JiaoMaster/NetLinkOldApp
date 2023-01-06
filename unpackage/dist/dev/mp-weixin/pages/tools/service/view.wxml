@@ -1,0 +1,1 @@
+<view><headbar vue-id="dad5834c-1" title="{{title}}" bind:__l="__l"></headbar></view>

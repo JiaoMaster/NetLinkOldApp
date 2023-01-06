@@ -1,0 +1,83 @@
+
+.back{
+		background-color: #e8e8e8;
+		width: 100%;
+		min-height: 100vh;
+		background-size: 100% 100%;
+}
+.title{
+		margin-top: 20px;
+}
+.text_size{
+		font-size: 25px;
+}
+	/* 轮播图 */
+.swiper-item {
+		width: 80%;
+		
+		height: 100%;
+		margin: 0 auto;
+		border-radius: 20rpx 20rpx 0 0;
+}
+.swiper-img {
+		width: 100%;
+		height: 100%;
+		border-radius: 20rpx 20rpx 0 0;
+}
+	/* 电影列表 */
+@-webkit-keyframes masked-animation {
+0% {
+			background-position: 0 0
+}
+to {
+			background-position: -100% 0
+}
+}
+.movieH {
+		width: 94%;
+		margin: 1 auto;
+		height: 100rpx;
+		line-height: 100rpx;
+		font-weight: 900;
+		color: #DD524D;
+		font-size: 25rpx;
+		background-image: -webkit-linear-gradient(left, #02ab6c, #DD524D 25%, #3499cd 50%, #DD524D 75%, #3499cd);
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-background-size: 200% 100%;
+		-webkit-animation: masked-animation 1s infinite linear;
+}
+.movieBox {
+		
+		border-radius: 40rpx 40rpx 40rpx 40rpx;
+		width:96%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+}
+.movieList {
+		background-color: #ffffff;
+		/* height: 300rpx; */
+		margin-top: 8px;
+		border-radius: 15rpx 15rpx 15rpx 15rpx;
+		width: 49%;
+}
+.movieImg {
+		height: 350rpx;
+		width: 100%;
+		border-radius: 15rpx;
+}
+.moiveRate {
+		height: 40rpx;
+		line-height: 40rpx;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 15rpx;
+}
+.moiveRateT {
+		margin-right: 2rpx;
+		color: #fd550d;
+}
+

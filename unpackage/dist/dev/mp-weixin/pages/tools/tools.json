@@ -1,0 +1,18 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "weather-forecast": "/components/weather-forecast/weather-forecast",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u-grid": "/uni_modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uni_modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u--image": "/uni_modules/uview-ui/components/u--image/u--image",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-row": "/uni_modules/uview-ui/components/u-row/u-row",
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
+    "u-text": "/uni_modules/uview-ui/components/u-text/u-text",
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider",
+    "headbar": "/components/headbar"
+  }
+}

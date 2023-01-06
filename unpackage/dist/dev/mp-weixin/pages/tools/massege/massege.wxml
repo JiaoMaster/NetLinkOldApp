@@ -1,0 +1,1 @@
+<view><view class="topbar_size"><headbar vue-id="1296c894-1" title="{{title}}" text="{{text}}" bind:__l="__l"></headbar></view><vieww vue-id="1296c894-2" bind:__l="__l"></vieww></view>
