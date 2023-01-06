@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
+    "u-text": "/uni_modules/uview-ui/components/u-text/u-text",
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty",
+    "headbar": "/components/headbar",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+  }
+}

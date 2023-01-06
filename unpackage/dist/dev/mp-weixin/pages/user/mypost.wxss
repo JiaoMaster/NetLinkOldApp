@@ -1,0 +1,58 @@
+
+.menu2{
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 40rpx 40rpx 40rpx 40rpx;
+	background-color: #ffffff;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.logo {
+	height: 200rpx;
+	width: 200rpx;
+	margin-top: 200rpx;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50rpx;
+}
+.text-area {
+	display: flex;
+	justify-content: center;
+}
+.title {
+	font-size: 36rpx;
+	color: #8f8f94;
+}
+.movieBox {
+	width:94%;
+	margin: 0 auto;
+}
+.u-page{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.border{
+		 margin-left: 10px;
+		 margin-right: 10px;
+}
+.text_size{
+	font-size: 30px;
+	width:120px;
+	height:50pxpx;
+	margin-right: 30px;
+	background:#ffse2-mm.cn.bing.net/th/ffff;
+	color:#6a6c71;
+}
+.grid-text {
+        font-size: 25px;
+        color: #909399;
+        padding: 10rpx 0 20rpx 0rpx;
+
+        box-sizing: border-box;
+}
+

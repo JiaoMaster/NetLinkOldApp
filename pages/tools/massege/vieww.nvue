@@ -1,0 +1,25 @@
+<template>
+	<div>
+		<web-view :src="s" style="margin-top: 40px;"></web-view>
+	</div>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				s: '/hybrid/html/index.html',
+			}
+		},
+		onLoad() {
+			var divnode = document.getElementsByTagName('html')[0];
+			divnode.fontSize = "100px"
+		}
+	}
+</script>
+
+<style>
+.intro {
+	color: #007AFF;
+}
+</style>

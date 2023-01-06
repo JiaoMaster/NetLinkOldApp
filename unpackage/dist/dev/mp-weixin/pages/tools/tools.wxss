@@ -1,0 +1,72 @@
+
+.grid-text {
+        font-size: 25px;
+        color: #909399;
+        padding: 10rpx 0 20rpx 0rpx;
+
+        box-sizing: border-box;
+}
+.menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 40rpx 40rpx 40rpx 40rpx;
+	background-color: #ffffff;
+}
+.menu1{
+	margin-top:0px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 40rpx 40rpx 40rpx 40rpx;
+	background-color: #ffffff;
+}
+.menu2{
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 40rpx 40rpx 40rpx 40rpx;
+	background-color: #ffffff;
+}
+.tianqi{
+	height: 300px;
+}
+.pop{
+	width:310px;
+	height: 150px;
+}
+.image{
+	margin-left: 30px;
+	float: left;
+	height: 50px;
+}
+.text_size{
+	font-size: 30px;
+	float: right;
+	width:120px;
+	height:50pxpx;
+	margin-right: 30px;
+	background:#ffse2-mm.cn.bing.net/th/ffff;
+	color:#6a6c71;
+}
+.text_left{
+	font-size: 30px;
+	float: left;
+}
+.cell{
+	   height: 80px;
+	   width: 200px;
+}
+.block{
+	width: 300px;
+	height: 50px;
+}
+.movieBox {
+	width:94%;
+	margin: 0 auto;
+}
+

@@ -1,0 +1,266 @@
+{
+	"easycom": {
+		        // npm安装的方式不需要前面的"@/"，下载安装的方式需要"@/"
+		        // npm安装方式
+		        // "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		        // 下载安装方式
+		        "^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+		    },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+			{
+				"path": "pages/tools/tools",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/play/detail/live",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/tools/news/news",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/tools/news/detail",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/tools/service/service",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/tools/service/view",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			
+			},
+			{
+				"path": "pages/tools/map/map",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			
+			},
+			{
+				"path": "pages/user/user",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			
+			},
+			{
+				"path": "pages/user/login",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/user/signup",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/chat/chat",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/chat/chatdetail",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/chat/sendChat",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/chat/commit",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/play/play",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/tools/massege/massege",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/play/detail/detail",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/user/mypost",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/shop/shop/ComType",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/shop/shop/ComList/ComList",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/shop/comDetail/comDetail",
+				"style": {
+					"enablePullDownRefresh": false,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/shop/order/order",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			},
+			{
+				"path": "pages/shop/order/orderDetail",
+				"style": {
+					"enablePullDownRefresh": true,
+					"app-plus":{
+								"titleNView":false //去掉app+h5顶部导航
+							}
+				}
+			}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "",
+		"backgroundColor": "#F8F8F8"
+	},
+    "tabBar": {
+		"color":"#555555",
+		"selectedColor":"#ffaa40",
+		"backgroundColor" : "#F8F8F8",
+		"fontSize" : "20px",
+		"height":"80px",
+		"iconWidth":"30px",
+		"list":[
+					{
+						"pagePath":"pages/tools/tools",
+						"text":"服务",
+						"iconPath":"static/toolsOff.png",
+						"selectedIconPath":"static/toolOn.png"
+					},
+				{
+					"pagePath":"pages/chat/chat",
+					"text":"社交",
+					"iconPath":"static/commitOff.png",
+					"selectedIconPath":"static/commitsOn.png"
+				},
+				{
+					"pagePath":"pages/play/play",
+					"text":"娱乐",
+					"iconPath":"static/movieOff.png",
+					"selectedIconPath":"static/moviesOn.png"
+				},
+				{
+					"pagePath":"pages/shop/shop/ComType",
+					"text":"商城",
+					"iconPath":"static/icon/shopOf.png",
+					"selectedIconPath":"static/icon/shopOn.png"
+				},
+				{
+					"pagePath":"pages/user/user",
+					"text":"用户",
+					"iconPath":"static/userOff.png",
+					"selectedIconPath":"static/usesOn.png"
+				}]
+	}
+}

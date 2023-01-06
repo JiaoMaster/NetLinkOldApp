@@ -1,0 +1,1 @@
+<u-navbar vue-id="e4612e84-1" leftText="{{text}}" title="{{title}}" autoBack="{{true}}" height="44" bgColor="linear-gradient(30deg, #ffaa00, #ffaa7f)" placeholder="{{true}}" border="{{true}}" data-event-opts="{{[['^rightClick',[['rightClick']]]]}}" bind:rightClick="__e" bind:__l="__l"></u-navbar>

@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "headbar": "/components/headbar",
+    "vieww": "/pages/tools/massege/vieww"
+  }
+}

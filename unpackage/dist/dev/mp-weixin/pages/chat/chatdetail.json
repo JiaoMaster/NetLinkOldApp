@@ -1,0 +1,18 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "u-album": "/uni_modules/uview-ui/components/u-album/u-album",
+    "u--textarea": "/uni_modules/uview-ui/components/u--textarea/u--textarea",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty",
+    "headbar": "/components/headbar",
+    "wxy-audio": "/uni_modules/wxy-audio/components/wxy-audio/wxy-audio"
+  }
+}
