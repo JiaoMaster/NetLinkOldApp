@@ -1,1 +1,0 @@
-<view><view style="height:40px;"></view><u-button vue-id="04b54aba-1" type="info" data-event-opts="{{[['^click',[['loca']]]]}}" bind:click="__e" bind:__l="__l"></u-button><u-text vue-id="04b54aba-2" bind:__l="__l" vue-slots="{{['default']}}">{{addrDel}}</u-text></view>

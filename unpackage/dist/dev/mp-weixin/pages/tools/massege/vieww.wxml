@@ -1,1 +1,0 @@
-<view class="_div"><web-view style="margin-top:40px;" src="{{s}}"></web-view></view>

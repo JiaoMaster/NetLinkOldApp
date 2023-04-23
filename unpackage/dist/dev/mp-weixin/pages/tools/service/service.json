@@ -1,8 +1,0 @@
-{
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider",
-    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
-    "headbar": "/components/headbar"
-  }
-}
