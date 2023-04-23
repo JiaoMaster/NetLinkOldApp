@@ -106,7 +106,6 @@
   justify-content: end;
 }
 .bottom-message.data-v-ecdf641a {
-  position: absolute;
   height: 70rpx;
   display: flex;
   width: 100%;
@@ -116,5 +115,14 @@
   overflow: hidden;
   color: #969898;
   bottom: 40rpx;
+}
+.text_size.data-v-ecdf641a {
+  font-size: 22px;
+  display: flex;
+  /*实现垂直居中*/
+  align-items: center;
+  /*实现水平居中*/
+  justify-content: center;
+  text-align: justify;
 }
 

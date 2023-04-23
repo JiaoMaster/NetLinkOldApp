@@ -131,7 +131,7 @@
 					for (;i < that.ImageList1.length;i++){
 					   console.log(that.ImageList1[i])
 						uni.request({
-							url:'http://101.42.237.62:8080/objects/'+that.ImageList1[i],
+							url:'http://link.netlinkold.cn/objects/'+that.ImageList1[i],
 							method:"DELETE"
 						})
 					}
@@ -168,7 +168,7 @@
 						this[`fileList${event.name}`].splice(event.index, 1)
 						var s = String(event.file.url).split('/')
 						uni.request({
-							url:'http://101.42.237.62:8080/objects/'+s[s.length - 1],
+							url:'http://link.netlinkold.cn/objects/'+s[s.length - 1],
 							method:"DELETE"
 						})
 						
@@ -205,7 +205,7 @@
 						return new Promise((resolve, reject) => {
 							var s = String(url).split('/')
 							let a = uni.uploadFile({
-								url: 'http://101.42.237.62:8080/objects/'+s[s.length - 1], // 仅为示例，非真实的接口地址
+								url: 'http://link.netlinkold.cn/objects/'+s[s.length - 1], // 仅为示例，非真实的接口地址
 								filePath: url,
 								name: 'file',
 								formData: {
@@ -269,7 +269,7 @@
 										})
 										console.log(tempFilePath)
 										const uploadTask = uni.uploadFile({
-										url: 'http://101.42.237.62:8080/upload/'+that.nowCh+'/'+that.addrDel.country+that.addrDel.province+that.addrDel.city,
+										url: 'http://link.netlinkold.cn/upload/'+that.nowCh+'/'+that.addrDel.country+that.addrDel.province+that.addrDel.city,
 										filePath: tempFilePath, //录音结束后返回的临时路径
 										name: 'picFile', // 文件对应的 key值对象名称
 										header: {
@@ -340,7 +340,7 @@
 										   console.log(that.ImageList1string)
 										}
 										uni.request({
-											url:'http://101.42.237.62:8080/api/question/send_question',
+											url:'http://link.netlinkold.cn/api/question/send_question',
 											method:'post',
 											data:{
 												community_id:that.nowCh,
@@ -364,7 +364,7 @@
 								    },
 									fail: function (res) {
 										uni.request({
-											url:'http://101.42.237.62:8080/api/question/send_question',
+											url:'http://link.netlinkold.cn/api/question/send_question',
 											method:'post',
 											data:{
 												community_id:that.nowCh,
